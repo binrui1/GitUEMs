@@ -54,5 +54,7 @@ public class Coche {
 		this.tipoMotor = tipoMotor;
 		this.km = km;
 	}
-	
+	public toString (){
+		return modelo+"tiene un "+tipoMotor;
+	}
 }
